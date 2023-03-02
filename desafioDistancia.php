@@ -2,6 +2,7 @@
 
 <body>
     <h1>Exercicio 1</h1>
+    
     <form action="desafioDistancia.php" method="POST">
         Velocidade: <input type="number" name="velo" />
         tempo: <input type="number" name="tempo" />
@@ -17,7 +18,7 @@
     if (isset($_POST["velo"]) && isset($_POST["tempo"])) {
         $velo = $_POST["velo"];
         $tempo = $_POST["tempo"];
-        echo "A distancia é" . calcular($velo, $tempo);
+        $distancia = calcular($velo, $tempo);
     } else {
         echo "nenhum dado informado";
     }
