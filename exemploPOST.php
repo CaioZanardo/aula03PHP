@@ -1,4 +1,5 @@
 <html>
+    <!-- Exemplo Aula DIGITAL EXPERIENCE PLATAFORM - BACKEND -->
     <body>
         <form action = "exemploPOST.php" method="POST">
             Nome: <input type = "text" name = "t_nome"/>
